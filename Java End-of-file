@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Pr
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    String data = "";
+    int lineNumber=0;
+    Scanner scanner = new Scanner(System.in);
+    do{
+        data = scanner.nextLine();
+        System.out.println(++lineNumber+" "+data);
+    } while(scanner.hasNext());
+
+    scanner.close();
+    }
+}
